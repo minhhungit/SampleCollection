@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{0C641E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigPattern_Action", "ConfigPattern_Action\ConfigPattern_Action.csproj", "{7B01DA13-7C62-4C56-B13C-E91B09228256}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task", "Task", "{61C3E333-AC1F-4936-BB76-35DD2D6099A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTimeoutForLongRunningProcess", "TaskTimeoutForLongRunningProcess\TaskTimeoutForLongRunningProcess.csproj", "{2B2F0681-7E13-4A1E-BCD7-969FB90E4BC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{7B01DA13-7C62-4C56-B13C-E91B09228256}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B01DA13-7C62-4C56-B13C-E91B09228256}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B01DA13-7C62-4C56-B13C-E91B09228256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2F0681-7E13-4A1E-BCD7-969FB90E4BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2F0681-7E13-4A1E-BCD7-969FB90E4BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2F0681-7E13-4A1E-BCD7-969FB90E4BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2F0681-7E13-4A1E-BCD7-969FB90E4BC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{589B63E5-4A9C-4325-B4C6-81B1526A8A72} = {BD11DDAB-7591-413C-845D-1394ECD612B6}
 		{7B01DA13-7C62-4C56-B13C-E91B09228256} = {0C641E88-9F37-4BCF-B252-774F42C70452}
+		{2B2F0681-7E13-4A1E-BCD7-969FB90E4BC8} = {61C3E333-AC1F-4936-BB76-35DD2D6099A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {126DC2D4-BB59-402F-A0C9-889856B76B12}
