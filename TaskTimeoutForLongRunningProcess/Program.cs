@@ -42,7 +42,14 @@ namespace TaskTimeoutForLongRunningProcess
 
                     Console.WriteLine("Time Out. Aborting Task");
 
-                    task.GetAwaiter().GetResult(); //Waiting for the task to throw OperationCanceledException
+                    try
+                    {
+                        task.GetAwaiter().GetResult(); //Waiting for the task to throw OperationCanceledException
+                    }
+                    catch (TaskCanceledException)
+                    {
+
+                    }
                 }
             }
 
