@@ -11,3 +11,17 @@
 /TaskTimeoutForLongRunningProcess/bin/Debug
 /TaskTimeoutForLongRunningProcess/obj/Debug
 /.vs/SampleCollection/v16
+/packages/System.ServiceModel.Primitives.4.5.3
+/Wcf/AsyncWcf/WcfConsole.Host/bin/Debug
+/Wcf/AsyncWcf/WcfConsole.Host/obj/Debug
+/Wcf/AsyncWcf/WcfConsoleMessages/bin/Debug/netstandard2.0
+/Wcf/AsyncWcf/WcfConsoleMessages/obj
+/ConfigPattern_Action/bin/Release
+/MixinWithConditionalWeakTable/bin/Release
+/TaskTimeoutForLongRunningProcess/bin/Release
+/ConfigPattern_Action/obj/Release
+/MixinWithConditionalWeakTable/obj/Release
+/TaskTimeoutForLongRunningProcess/obj/Release
+/Wcf/AsyncWcf/WcfConsole.Host/bin/Release
+/Wcf/AsyncWcf/WcfConsole.Host/obj/Release
+/Wcf/AsyncWcf/WcfConsoleMessages/bin/Release/netstandard2.0
