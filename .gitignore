@@ -25,3 +25,9 @@
 /Wcf/AsyncWcf/WcfConsole.Host/bin/Release
 /Wcf/AsyncWcf/WcfConsole.Host/obj/Release
 /Wcf/AsyncWcf/WcfConsoleMessages/bin/Release/netstandard2.0
+/Counter/Counter.App/bin/Debug/netcoreapp2.2
+/Counter/Counter.App/obj
+/Counter/Counter.Core/bin/Debug/netstandard2.0
+/Counter/Counter.Core/obj
+/Counter/Counter.App/bin/Release/netcoreapp2.2
+/Counter/Counter.Core/bin/Release/netstandard2.0
