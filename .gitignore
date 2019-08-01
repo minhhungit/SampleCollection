@@ -31,3 +31,5 @@
 /Counter/Counter.Core/obj
 /Counter/Counter.App/bin/Release/netcoreapp2.2
 /Counter/Counter.Core/bin/Release/netstandard2.0
+bin/
+obj/

@@ -27,7 +27,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Counter", "Counter", "{D24E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counter.Core", "Counter\Counter.Core\Counter.Core.csproj", "{C8150225-A60E-4322-A087-FF93FFADA7BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counter.App", "Counter\Counter.App\Counter.App.csproj", "{2A28FB10-4346-40DE-83CA-8B4B5E9AA957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Counter.App", "Counter\Counter.App\Counter.App.csproj", "{2A28FB10-4346-40DE-83CA-8B4B5E9AA957}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compress", "Compress", "{BF28D9E4-479C-424C-A171-1274045AB047}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompressBytesWith7zip", "Compress\CompressBytesWith7zip\CompressBytesWith7zip.csproj", "{1D1E8981-67C3-4970-AC87-7B9D381821A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressBytesWithMemoryStream", "Compress\CompressBytesWithMemoryStream\CompressBytesWithMemoryStream.csproj", "{16627CF9-3074-4404-87C2-EDCF95F4044F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,14 @@ Global
 		{2A28FB10-4346-40DE-83CA-8B4B5E9AA957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A28FB10-4346-40DE-83CA-8B4B5E9AA957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A28FB10-4346-40DE-83CA-8B4B5E9AA957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D1E8981-67C3-4970-AC87-7B9D381821A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1E8981-67C3-4970-AC87-7B9D381821A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1E8981-67C3-4970-AC87-7B9D381821A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1E8981-67C3-4970-AC87-7B9D381821A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16627CF9-3074-4404-87C2-EDCF95F4044F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16627CF9-3074-4404-87C2-EDCF95F4044F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16627CF9-3074-4404-87C2-EDCF95F4044F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16627CF9-3074-4404-87C2-EDCF95F4044F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +90,8 @@ Global
 		{2BA75384-BC8A-4C22-8A15-A7D11C89B6C3} = {F195A579-4DD1-49B0-81B6-19BA3D60E193}
 		{C8150225-A60E-4322-A087-FF93FFADA7BF} = {D24EFD24-8050-4AC7-97BD-877BB0F0CEA0}
 		{2A28FB10-4346-40DE-83CA-8B4B5E9AA957} = {D24EFD24-8050-4AC7-97BD-877BB0F0CEA0}
+		{1D1E8981-67C3-4970-AC87-7B9D381821A0} = {BF28D9E4-479C-424C-A171-1274045AB047}
+		{16627CF9-3074-4404-87C2-EDCF95F4044F} = {BF28D9E4-479C-424C-A171-1274045AB047}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {126DC2D4-BB59-402F-A0C9-889856B76B12}
