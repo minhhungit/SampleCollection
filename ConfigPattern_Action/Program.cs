@@ -6,18 +6,31 @@ namespace ConfigPattern_Action
     {
         static void Main(string[] args)
         {
-            MyHelper.Initialize("Hello", new TimeSpan(1, 0, 0));
+            
+            // one
+            var conf = new MyHelper.Configuration();
             Console.WriteLine(MyHelper.DoSomething());
-
             Console.WriteLine("  ----");
 
+            // two
+            MyHelper.Initialize("Hello", new TimeSpan(1, 0, 0));
+            Console.WriteLine(MyHelper.DoSomething());
+            Console.WriteLine("  ----");
+
+            // three
             MyHelper.Initialize(x =>
             {
-                x.WithConnection("Hello{it.minhhung@gmail.com}");
+                x.WithConnection("Hello {it.minhhung@gmail.com}");
                 x.WithTimeout(new TimeSpan(0, 2, 0)); // 120 seconds
             });
             Console.WriteLine(MyHelper.DoSomething());
+            Console.WriteLine("  ----");
 
+            // reset
+            MyHelper.Configuration.ResetDefaultValues?.Invoke();
+            Console.WriteLine(MyHelper.DoSomething());
+
+            // done
             Console.ReadKey();
         }
     }
@@ -26,6 +39,20 @@ namespace ConfigPattern_Action
     {
         public class Configuration
         {
+            public static Action ResetDefaultValues;
+
+            public Configuration()
+            {
+                void setDefaultValues()
+                {
+                    ConnectionString = "I am default connection string";
+                    Timeout = new TimeSpan(1, 2, 3);
+                };
+                setDefaultValues();
+
+                ResetDefaultValues = setDefaultValues;
+            }
+
             public string ConnectionString { get; private set; }
             public TimeSpan Timeout { get; private set; }
 

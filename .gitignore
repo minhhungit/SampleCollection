@@ -33,3 +33,4 @@
 /Counter/Counter.Core/bin/Release/netstandard2.0
 bin/
 obj/
+.vs
